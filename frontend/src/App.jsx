@@ -399,7 +399,7 @@ export default function App() {
         <div className="w-full max-w-md bg-white/5 backdrop-blur-3xl border border-white/10 rounded-2xl p-8 shadow-2xl relative z-10 text-white">
           <div className="text-center mb-8">
             <div className="inline-flex items-center justify-center p-3 bg-indigo-500/10 text-indigo-300 rounded-xl mb-4 border border-white/10 shadow-inner">
-              <Sparkles className="w-8 h-8 animate-lash" />
+             <MessageCircle className="w-8 h-8 animate-lash" />
             </div>
             <h1 className="text-3xl font-bold tracking-tight font-sans text-white">LashChat</h1>
             <p className="text-sm text-white/40 mt-2">Real-time chat platform</p>
@@ -468,7 +468,7 @@ export default function App() {
         <div className="h-16 border-b border-white/10 px-5 flex items-center justify-between bg-white/5">
           <div className="flex items-center gap-2.5">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-500 to-purple-500 border border-white/20 flex items-center justify-center font-bold text-white">
-              <Sparkles className="w-4.5 h-4.5" />
+              <MessageCircle className="w-8 h-8 animate-lash" />
             </div>
             <span className="font-semibold text-white tracking-tight text-base font-sans">LashChat Room</span>
           </div>
